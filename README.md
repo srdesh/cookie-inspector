@@ -2,6 +2,7 @@
 
 Cookie Inspector is a Chrome browser extension designed to improve user awareness of web tracking. It analyzes cookies used by websites, classifies them, evaluates privacy risks, and allows users to reset cookie preferences easily.
 
+
 ## Features
 
 **1. Cookie Scanning:**
@@ -17,9 +18,18 @@ Classifies cookies in to - Low, Medium, High, based on cookie type, expiration t
 **4. Reset Cookie Preferences:**
 Remove all cookie preferences from the current website with reset cookie button.
 
+
 ## Technologies Used
 
 - JavaScript (Core logic)
 - HTML (Extension UI)
 - CSS (Styling)
 - Chrome Extension APIs: Cookies API, Tabs API, Scripting API
+
+
+## Installation Steps
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/srdesh/cookie-inspector.git
