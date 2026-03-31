@@ -2,8 +2,6 @@
 
 Cookie Inspector is a Chrome browser extension designed to improve user awareness of web tracking. It analyzes cookies used by websites, classifies them, evaluates privacy risks, and allows users to reset cookie preferences easily.
 
----
-
 ## 🚀 Features
 
 - 🔍 **Cookie Scanning**
