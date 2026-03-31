@@ -2,44 +2,26 @@
 
 Cookie Inspector is a Chrome browser extension designed to improve user awareness of web tracking. It analyzes cookies used by websites, classifies them, evaluates privacy risks, and allows users to reset cookie preferences easily.
 
-## 🚀 Features
+## Features
 
-- 🔍 **Cookie Scanning**
-  - Detects all cookies associated with the current website
+**1. Cookie Scanning**
+Detects all cookies associated with the current website
 
-- 🏷️ **Cookie Classification**
+**2. Cookie Classification**
   - First-party vs Third-party
   - Session vs Persistent cookies
 
-- ⚠️ **Risk Detection**
-  - Classifies cookies into:
-    - 🟢 Low
-    - 🟠 Medium
-    - 🔴 High
-  - Based on:
-    - Cookie type
-    - Expiration time
-    - Tracking keywords
+**3. Risk Detection**
+Classifies cookies in to - Low, Medium, High, based on cookie type, expiration time and tracking behavior. Displays risk summary with total number of cookies by each level.
 
-- 🧹 **Reset Cookie Preferences**
-  - Remove all cookies for the current website with one click
-
-- 📊 **Risk Summary**
-  - Displays number of cookies by risk level
+**4. Reset Cookie Preferences**
+Remove all cookie preferences from the current website with reset cookie button.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - JavaScript (Core logic)
-- HTML (Popup UI)
+- HTML (Extension UI)
 - CSS (Styling)
-- Chrome Extension APIs:
-  - Cookies API
-  - Tabs API
-  - Scripting API
-
----
-
-## 📁 Project Structure
-
+- Chrome Extension APIs: Cookies API, Tabs API, Scripting API
