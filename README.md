@@ -33,3 +33,5 @@ Remove all cookie preferences from the current website with reset cookie button.
 
 ```bash
 git clone https://github.com/srdesh/cookie-inspector.git
+
+### 1. Clone the repository
