@@ -33,5 +33,18 @@ Remove all cookie preferences from the current website with reset cookie button.
 
 ```bash
 git clone https://github.com/srdesh/cookie-inspector.git
+```
 
-### 1. Clone the repository
+### 2. Manage extension
+Open the chrome browser. Go to "manage extensions" or copy and paste the url.
+
+```bash
+chrome://extensions/
+```
+
+### 3. Load extension
+Click "Load unpacked" to upload the extension folder from the local device.
+
+### 4. Run extension!
+Run cookie-inspector extension from the top bar. 
+Click scan or reset button to inspect cookies or reset preferences from the current browsing website.
