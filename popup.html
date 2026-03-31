@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Cookie Inspector</title>
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width:300px;
+    padding:6px;
+    background: white;
+}
+
+.container{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+#logo{
+    height: 24px;
+    width: 24px;
+}
+
+#scan, #reset {
+    height: 48px; 
+    width: 148px;
+    border: 0px;
+    border-radius: 6px;
+    color: white; 
+    font-weight: 700;
+    font-size: 13px;
+}
+#scan { 
+    background-color: rgb(27, 27, 27); 
+    &:hover{
+        background-color: rgb(61, 61, 61);
+    }
+}
+
+#reset { 
+    background-color: crimson;
+    &:hover{
+        background-color: rgb(238, 35, 76);
+    } 
+}
+
+#results{
+    margin: 10px 0px 10px 0px;
+}
+
+.statAll{
+    display: flex;
+    padding: 0px;
+    list-style-type: none;
+    li{
+        text-align: center;
+        height: 64px;
+        width: 100%;
+        padding: 4px;
+        h3{
+            font-size: 18px;
+            line-height: 0px;
+        }
+    }
+    li:nth-child(1){
+        border-radius: 6px 0px 0px 6px;
+        background: #D0F0C0;
+    }
+    li:nth-child(2){
+        background: #FFE5B4;
+    }
+    li:nth-child(3){
+        border-radius: 0px 6px 6px 0px;
+        background: #fbd9d3;
+    }
+}
+
+.low{color:green;}
+.medium{color:orange;}
+.high{color:red;}
+
+.cookieItem{
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: aliceblue;
+}
+#resetBox{
+    background-color: aliceblue;
+    border: 1px solid #87ceeb;
+    padding: 12px;
+    img{
+        height: 48px;
+        width: 48px;
+    }
+    h4, p{
+        margin: 0px;
+        padding-top: 4px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <img id="logo" src="icons/icon128.png"/>
+    <h2>Cookie Inspector</h2>
+</div>
+<div class="container">
+    <button id="scan"><i class="fa fa-search"></i> Scan Cookies</button>
+    <button id="reset"><i class="fa fa-trash"></i> Reset Cookies</button>
+</div>
+
+<div id="results"></div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
