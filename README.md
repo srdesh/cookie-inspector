@@ -1,2 +1,2 @@
-# Cookie Inspection - Browser Extension
+# Cookie Inspector - Browser Extension
 Browser extension to classify cookie, inspect risks and reset cookie preferences
