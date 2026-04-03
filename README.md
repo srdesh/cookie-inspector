@@ -57,7 +57,6 @@ This extension only accesses cookies locally within the user's browser to analyz
 No data is transmitted to external servers.
 
 ### Permission
-Click "Load unpacked" to upload the extension folder from the local device.
 
 - Cookies: Used to read and manage cookies for the current website.
 - Tabs: Used to identify the active tab.
